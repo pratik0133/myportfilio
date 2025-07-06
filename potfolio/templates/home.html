@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Welcome to My Portfolio</h1>
+    <p>Hello! I’m Chiranjeeb Mahanta, an aspiring backend developer learning Flask.</p>
+    <img src="{{ url_for('static', filename='images/profile.jpg') }}" 
+                     alt="Chiranjeeb Mahanta" 
+                     class="profile-pic">
+{% endblock %}
